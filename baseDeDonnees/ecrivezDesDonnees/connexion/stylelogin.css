@@ -1,0 +1,63 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+
+.avatar{
+	margin-bottom: -13%; 
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	top:12%;
+	display: block;
+    margin-left: 35%;
+	border: 2px solid #4083A0;
+}
+#container{
+    width:320px;
+    margin:0 auto;
+    margin-top:10%;
+	
+}
+/* Bordered form */
+form {
+    width:80%;
+    padding: 30px;
+    border: 2px solid #4083A0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 #4083A0;
+	
+}
+
+/*le hover c'est lorsque la souris est sur la forme ça chage de couleur*/
+form:hover {
+    background: #5591AB;
+}
+#container h3{
+    width: 38%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+	text-align: center;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+input[type=submit] {
+    background-color: #E5EE9C;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
